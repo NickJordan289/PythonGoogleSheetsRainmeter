@@ -5,8 +5,6 @@ Uses Google Sheets API to Retrieve values.
 
 ![DefaultStyle.png](DefaultStyle.png)
 
----
-
 ## Example Google Sheet table format
 | Ticker | Change Today $ |
 | --------------- | --------------- |
@@ -28,7 +26,6 @@ Range=A1:B4
 ```
 
 ## Credentials File Config (Credentials.json)
----
 Google Cloud account required for Google Sheets API https://console.cloud.google.com/apis/credentials/oauthclient
 ### 1. Generate OAuth 2.0 Desktop App
 ### 2. Download Json file and replace [credentials.json](credentials.json)
