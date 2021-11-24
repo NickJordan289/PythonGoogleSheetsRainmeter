@@ -1,5 +1,5 @@
 # Python Google Sheets Rainmeter Skin
-Rainmeter skin will grab the value in the total row of column specified in the config. Default update rate is 10 seconds.
+Rainmeter skin will grab the value in the total row of column specified in the config. Default update rate is 1 seconds.
 
 Uses Google Sheets API to Retrieve values.
 
