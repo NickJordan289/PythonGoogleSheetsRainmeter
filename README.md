@@ -1,4 +1,7 @@
 # Python Google Sheets Rainmeter Skin
+### Rainmeter .rmskin file: [Release 1.0.0](https://github.com/NickJordan289/PythonGoogleSheetsRainmeter/releases/tag/1.0.0)
+
+Description:
 Rainmeter skin will grab the value in the total row of column specified in the config. Default update rate is 1 seconds.
 
 Uses Google Sheets API to Retrieve values.
