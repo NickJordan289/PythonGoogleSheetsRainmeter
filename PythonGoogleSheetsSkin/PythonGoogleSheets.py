@@ -26,12 +26,15 @@ SAMPLE_HEADER_NAME = args.header
 
 
 def main():
-    service = build('sheets', 'v4', credentials=get_creds())
-    df = get_table(service)
-    if df is not None:
-        profit = df[SAMPLE_HEADER_NAME].tail(
-            1).values[0]  # Get value from total row
-        print(profit)  # Output to Rainmeter
+    try:
+        service = build('sheets', 'v4', credentials=get_creds())
+        df = get_table(service)
+        if df is not None:
+            profit = df[SAMPLE_HEADER_NAME].tail(
+                1).values[0]  # Get value from total row
+            print(profit)  # Output to Rainmeter
+    except Exception as e:
+        print('No data found.')  # Output to Rainmeter
 
 
 def get_table(service):
